@@ -23,7 +23,7 @@ using namespace std;
         r=a*b;
     }
     else if(op1 == '/'){
-        if(b == 0){cout << "wrong operation";}
+        if(b == 0){cout << "wrong operation"; return -1;}
         else r=a/b;
     }
     else if((op1 == '<')&&(op2 == '<')){
