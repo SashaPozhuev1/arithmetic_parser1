@@ -48,7 +48,7 @@ using namespace std;
         cout << "wrong operation";
         return -1;
     }
-    cout <<"result: " << r;
+    cout <<"result: " << r << endl;
     cin.get();
     return 0;
  }
